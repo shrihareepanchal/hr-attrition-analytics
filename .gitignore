@@ -1,0 +1,43 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Data
+data/raw/*.csv
+data/processed/*.csv
+
+# Models
+models/*.joblib
+models/*.pkl
+
+# Results
+results/figures/*.png
+results/figures/*.html
+results/reports/*.json
+results/reports/*.csv
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
